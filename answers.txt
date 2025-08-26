@@ -1,0 +1,13 @@
+sort1 uses:  bubble sort
+
+How do you know?: Because sort1 was very slow on reversed and random inputs, but much faster on already sorted input. This behavior matches Bubble Sort, which repeatedly swaps adjacent elements and takes longer on unsorted data.
+
+
+
+sort2 uses: Merge Sort.
+
+How do you know?: Because sort2 was the fastest on all inputs, even with large files. This matches Merge Sort, which efficiently divides and merges the list in O(n log n) time.
+
+sort3 uses:  Selection Sort.
+
+How do you know?:Because sort3 took about the same amount of time regardless of whether the input was sorted, reversed, or random. This matches Selection Sort, which always scans through the unsorted portion to select the smallest element.
